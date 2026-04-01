@@ -2,8 +2,6 @@
 //  ContentView.swift
 //  RealTimeStockTracker
 //
-//  Created by Renault on 1/4/2026.
-//
 
 import SwiftUI
 

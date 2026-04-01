@@ -2,8 +2,6 @@
 //  RealTimeStockTrackerTests.swift
 //  RealTimeStockTrackerTests
 //
-//  Created by Renault on 1/4/2026.
-//
 
 import XCTest
 @testable import RealTimeStockTracker
