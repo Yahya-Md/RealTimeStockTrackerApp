@@ -1,0 +1,152 @@
+[
+  {
+    "symbol": "AAPL",
+    "companyName": "Apple Inc.",
+    "stockDescription": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, Mac, iPad, and Apple Watch lines, along with services including the App Store, Apple Music, iCloud, and Apple Pay.",
+    "basePrice": 178.72
+  },
+  {
+    "symbol": "GOOG",
+    "companyName": "Alphabet Inc.",
+    "stockDescription": "Alphabet Inc. is a multinational technology conglomerate and parent company of Google. It provides online advertising technologies, search engine services, cloud computing, software, and hardware. Google Search, YouTube, and Android are among its key products.",
+    "basePrice": 141.8
+  },
+  {
+    "symbol": "TSLA",
+    "companyName": "Tesla Inc.",
+    "stockDescription": "Tesla Inc. designs, develops, manufactures, and sells fully electric vehicles, energy generation, and storage systems. The company produces the Model S, Model 3, Model X, Model Y, and Cybertruck, and operates a global network of Supercharger stations.",
+    "basePrice": 248.42
+  },
+  {
+    "symbol": "AMZN",
+    "companyName": "Amazon.com Inc.",
+    "stockDescription": "Amazon.com Inc. is a multinational technology company focusing on e-commerce, cloud computing via Amazon Web Services, digital streaming, and artificial intelligence. It is one of the world's most valuable companies and a dominant force in online retail.",
+    "basePrice": 178.25
+  },
+  {
+    "symbol": "MSFT",
+    "companyName": "Microsoft Corp.",
+    "stockDescription": "Microsoft Corporation develops and supports software, services, devices, and solutions worldwide. Its products include the Windows operating system, Office productivity suite, Azure cloud platform, LinkedIn, and Xbox gaming ecosystem.",
+    "basePrice": 378.91
+  },
+  {
+    "symbol": "NVDA",
+    "companyName": "NVIDIA Corp.",
+    "stockDescription": "NVIDIA Corporation designs and manufactures graphics processing units (GPUs) and system-on-chip units. The company is a leader in AI computing hardware, powering data centers, autonomous vehicles, and gaming platforms worldwide.",
+    "basePrice": 495.22
+  },
+  {
+    "symbol": "META",
+    "companyName": "Meta Platforms Inc.",
+    "stockDescription": "Meta Platforms Inc. builds technologies that help people connect and share. The company operates Facebook, Instagram, WhatsApp, and Messenger, and is investing heavily in augmented and virtual reality through its Reality Labs division.",
+    "basePrice": 370.45
+  },
+  {
+    "symbol": "NFLX",
+    "companyName": "Netflix Inc.",
+    "stockDescription": "Netflix Inc. is a global streaming entertainment service offering a wide variety of TV series, documentaries, feature films, and mobile games across a range of genres and languages. The company operates in over 190 countries.",
+    "basePrice": 485.5
+  },
+  {
+    "symbol": "AMD",
+    "companyName": "Advanced Micro Devices Inc.",
+    "stockDescription": "Advanced Micro Devices Inc. designs and manufactures high-performance computing and visualization products. AMD produces CPUs, GPUs, and adaptive SoC products for data centers, PCs, gaming consoles, and embedded systems.",
+    "basePrice": 120.89
+  },
+  {
+    "symbol": "INTC",
+    "companyName": "Intel Corp.",
+    "stockDescription": "Intel Corporation designs, manufactures, and sells computing and communications products worldwide. The company provides processors for PCs and data centers, memory and storage solutions, and programmable semiconductor products.",
+    "basePrice": 44.3
+  },
+  {
+    "symbol": "CRM",
+    "companyName": "Salesforce Inc.",
+    "stockDescription": "Salesforce Inc. provides cloud-based customer relationship management (CRM) technology. The company offers sales, service, marketing, and commerce solutions that help businesses connect with their customers in new and intelligent ways.",
+    "basePrice": 272.6
+  },
+  {
+    "symbol": "ORCL",
+    "companyName": "Oracle Corp.",
+    "stockDescription": "Oracle Corporation provides cloud-based and on-premises database management systems, enterprise software, and cloud infrastructure. The company serves businesses of all sizes with database technology, applications, and cloud services.",
+    "basePrice": 118.45
+  },
+  {
+    "symbol": "ADBE",
+    "companyName": "Adobe Inc.",
+    "stockDescription": "Adobe Inc. operates as a diversified software company, providing digital media and marketing solutions. Its flagship products include Photoshop, Illustrator, Premiere Pro, and the Adobe Creative Cloud suite used by creative professionals worldwide.",
+    "basePrice": 570.25
+  },
+  {
+    "symbol": "PYPL",
+    "companyName": "PayPal Holdings Inc.",
+    "stockDescription": "PayPal Holdings Inc. operates a digital payments platform that enables digital and mobile payments on behalf of merchants and consumers. The company offers PayPal, Venmo, and Braintree products for online and in-person transactions.",
+    "basePrice": 63.8
+  },
+  {
+    "symbol": "UBER",
+    "companyName": "Uber Technologies Inc.",
+    "stockDescription": "Uber Technologies Inc. develops and operates a technology platform for ride-hailing, food delivery, package delivery, and freight transportation. The company connects consumers with independent providers of ride services, restaurants, and couriers.",
+    "basePrice": 62.5
+  },
+  {
+    "symbol": "SPOT",
+    "companyName": "Spotify Technology S.A.",
+    "stockDescription": "Spotify Technology S.A. provides audio streaming subscription services worldwide. The platform offers music, podcasts, and audiobooks to millions of users, with both free ad-supported and premium subscription tiers.",
+    "basePrice": 195.3
+  },
+  {
+    "symbol": "SQ",
+    "companyName": "Block Inc.",
+    "stockDescription": "Block Inc., formerly Square, builds tools to empower businesses and individuals to participate in the economy. Its ecosystem includes Square for sellers, Cash App for consumers, TIDAL for artists, and TBD for developers.",
+    "basePrice": 75.4
+  },
+  {
+    "symbol": "SHOP",
+    "companyName": "Shopify Inc.",
+    "stockDescription": "Shopify Inc. provides a cloud-based multi-channel commerce platform for small and medium-sized businesses. Merchants use Shopify to design, set up, and manage their stores across multiple sales channels including web, mobile, and social media.",
+    "basePrice": 78.65
+  },
+  {
+    "symbol": "COIN",
+    "companyName": "Coinbase Global Inc.",
+    "stockDescription": "Coinbase Global Inc. provides a trusted and easy-to-use platform for accessing the broader crypto economy. The company enables individuals and institutions to buy, sell, store, and manage digital assets such as Bitcoin and Ethereum.",
+    "basePrice": 155.2
+  },
+  {
+    "symbol": "RBLX",
+    "companyName": "Roblox Corp.",
+    "stockDescription": "Roblox Corporation operates an online entertainment platform where users can play, create, and share immersive 3D experiences. The platform hosts millions of user-created games and is particularly popular among younger audiences worldwide.",
+    "basePrice": 40.85
+  },
+  {
+    "symbol": "SNOW",
+    "companyName": "Snowflake Inc.",
+    "stockDescription": "Snowflake Inc. provides a cloud-based data platform that enables organizations to consolidate data, discover and share insights, and execute diverse analytic workloads. The platform supports data warehousing, data lakes, and data sharing.",
+    "basePrice": 165.7
+  },
+  {
+    "symbol": "PLTR",
+    "companyName": "Palantir Technologies Inc.",
+    "stockDescription": "Palantir Technologies Inc. builds and deploys software platforms for the intelligence community, defense, and commercial sectors. Its products, Gotham and Foundry, enable organizations to integrate and analyze complex data at scale.",
+    "basePrice": 21.45
+  },
+  {
+    "symbol": "RIVN",
+    "companyName": "Rivian Automotive Inc.",
+    "stockDescription": "Rivian Automotive Inc. designs, develops, and manufactures electric adventure vehicles and accessories. The company produces the R1T pickup truck and R1S SUV, and also builds electric delivery vans for commercial fleet customers.",
+    "basePrice": 16.3
+  },
+  {
+    "symbol": "LCID",
+    "companyName": "Lucid Group Inc.",
+    "stockDescription": "Lucid Group Inc. is a technology and automotive company focused on developing electric vehicles with advanced luxury features. Its flagship Lucid Air sedan emphasizes long-range battery technology and high-performance electric drivetrains.",
+    "basePrice": 4.52
+  },
+  {
+    "symbol": "NIO",
+    "companyName": "NIO Inc.",
+    "stockDescription": "NIO Inc. designs, develops, and manufactures premium smart electric vehicles in China. The company differentiates with its battery-as-a-service subscription model and a network of battery swap stations for rapid energy replenishment.",
+    "basePrice": 7.28
+  }
+]
