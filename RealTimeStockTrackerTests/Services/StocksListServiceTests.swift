@@ -11,7 +11,7 @@ import RealTimeStockTracker
 final class StocksListServiceTests: XCTestCase {
     func test_getStocks_retrunError_onLoaderError() async {
         let (sut, loader) = makeSUT()
-        let expectedError = NSError(domain: "", code: 0)
+        let expectedError = anyError()
         loader.expectedError = expectedError
         do {
             let _ = try await sut.getStocks()
@@ -27,6 +27,11 @@ extension StocksListServiceTests {
         let loader = JsonLoadableMock()
         let sut = StocksListServiceImpl(loader: loader)
         return (sut, loader)
+    }
+    
+    // MARK: Error
+    private func anyError() -> NSError {
+        return NSError(domain: "", code: 0)
     }
 }
 
