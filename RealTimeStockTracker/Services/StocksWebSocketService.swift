@@ -15,6 +15,7 @@ final class StocksWebSocketService: StocksWebSocket {
     
     enum Error: Swift.Error {
         case unableToDecode
+        case unableToEncode
     }
     
     private let webSocket: WebSocketSessionProtocol
@@ -42,10 +43,12 @@ final class StocksWebSocketService: StocksWebSocket {
     }
     
     func send(_ priceUpdate: PriceUpdate) async throws {
-        if let data = try? JSONEncoder().encode(priceUpdate),
-           let json = String(data: data, encoding: .utf8) {
-            try await webSocket.send(json)
+        guard let data = try? JSONEncoder().encode(priceUpdate),
+              let json = String(data: data, encoding: .utf8) else {
+            throw Error.unableToEncode
         }
+        try await webSocket.send(json)
+        
     }
     
     private static func map(_ data: Data) throws -> PriceUpdate {
