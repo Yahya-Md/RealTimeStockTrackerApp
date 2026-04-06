@@ -3,6 +3,8 @@
 //  RealTimeStockTracker
 //
 
+import Foundation
+
 enum PriceDirection: Equatable {
     case up
     case down
@@ -30,5 +32,19 @@ struct Stock: Identifiable, Equatable{
         if priceChange > 0.001 { return .up }
         if priceChange < -0.001 { return .down }
         return .unchanged
+    }
+    
+    init(
+        symbol: String,
+        companyName: String,
+        stockDescription: String,
+        basePrice: Double
+    ) {
+        self.id = UUID().hashValue
+        self.symbol = symbol
+        self.companyName = companyName
+        self.stockDescription = stockDescription
+        self.currentPrice = basePrice
+        self.previousPrice = basePrice
     }
 }
