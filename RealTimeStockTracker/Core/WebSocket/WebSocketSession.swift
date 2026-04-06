@@ -7,15 +7,18 @@ import Foundation
 
 
 protocol WebSocketSessionProtocol {
-    func start() -> AsyncStream<PriceUpdate>
+    associatedtype T
+    func start() -> AsyncStream<T>
     func stop()
 }
 
 class WebSocketSession: WebSocketSessionProtocol {
+    typealias T = Data
+
     private var webSocketTask: URLSessionWebSocketTask?
     private var sendTask: Task<Void, Never>?
     private var receiveTask: Task<Void, Never>?
-    private var continuation: AsyncStream<PriceUpdate>.Continuation?
+    private var continuation: AsyncStream<T>.Continuation?
     
     private let url: URL
     private let session: URLSession
@@ -27,8 +30,8 @@ class WebSocketSession: WebSocketSessionProtocol {
         self.generator = generator
     }
     
-    func start() -> AsyncStream<PriceUpdate> {
-        let (stream, continuation) = AsyncStream.makeStream(of: PriceUpdate.self)
+    func start() -> AsyncStream<T> {
+        let (stream, continuation) = AsyncStream.makeStream(of: T.self)
         self.continuation = continuation
         webSocketTask = session.webSocketTask(with: url)
         webSocketTask?.resume()
@@ -89,9 +92,8 @@ class WebSocketSession: WebSocketSessionProtocol {
         @unknown default:
             return
         }
-        guard let data,
-              let update = try? JSONDecoder().decode(PriceUpdate.self, from: data) else { return }
-        continuation?.yield(update)
+        guard let data else { return }
+        continuation?.yield(data)
     }
 
     private func handleDisconnection() {
