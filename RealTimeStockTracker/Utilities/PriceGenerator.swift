@@ -6,7 +6,7 @@
 import Foundation
 
 protocol PriceGenerator {
-    func generate<T: Encodable>() -> T
+    func generate() -> PriceUpdate
 }
 
 final class RandomPriceGenerator: PriceGenerator {
@@ -19,10 +19,8 @@ final class RandomPriceGenerator: PriceGenerator {
         self.currentPrices = basePrices
         self.symbols = Array(basePrices.keys)
     }
-
-    // MARK: - Price Generation
-
-    func generate<T: Encodable>() -> T {
+    
+    func generate() -> PriceUpdate {
         let symbol = symbols.randomElement()!
         let currentPrice = currentPrices[symbol, default: 100.0]
         let changePercent = Double.random(in: -0.02...0.02)
@@ -33,6 +31,6 @@ final class RandomPriceGenerator: PriceGenerator {
             symbol: symbol,
             price: roundedPrice,
             timestamp: Date().timeIntervalSince1970
-        ) as! T
+        )
     }
 }

@@ -61,5 +61,4 @@ final class StocksWebSocketService: StocksWebSocket {
     func stop() {
         webSocket.stop()
     }
-    
 }
