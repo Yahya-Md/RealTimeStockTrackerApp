@@ -7,18 +7,15 @@ import Foundation
 
 
 protocol WebSocketSessionProtocol {
-    associatedtype T
-    func start() -> AsyncStream<T>
+    func start() -> AsyncStream<Data>
     func stop()
 }
 
-class WebSocketSession: WebSocketSessionProtocol {
-    typealias T = Data
-
+final class WebSocketSession: WebSocketSessionProtocol {
     private var webSocketTask: URLSessionWebSocketTask?
     private var sendTask: Task<Void, Never>?
     private var receiveTask: Task<Void, Never>?
-    private var continuation: AsyncStream<T>.Continuation?
+    private var continuation: AsyncStream<Data>.Continuation?
     
     private let url: URL
     private let session: URLSession
@@ -30,8 +27,8 @@ class WebSocketSession: WebSocketSessionProtocol {
         self.generator = generator
     }
     
-    func start() -> AsyncStream<T> {
-        let (stream, continuation) = AsyncStream.makeStream(of: T.self)
+    func start() -> AsyncStream<Data> {
+        let (stream, continuation) = AsyncStream.makeStream(of: Data.self)
         self.continuation = continuation
         webSocketTask = session.webSocketTask(with: url)
         webSocketTask?.resume()
