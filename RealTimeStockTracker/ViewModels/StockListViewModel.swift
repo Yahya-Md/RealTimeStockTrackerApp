@@ -39,6 +39,7 @@ final class StockListViewModel {
     }
     
     func loadStocks() async {
+        guard stocks.isEmpty else { return }
         do {
             let result = try await service.getStocks()
             stocks = result.map { $0.toEntity() }
