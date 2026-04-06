@@ -11,6 +11,17 @@ struct StocksList: View {
         @Bindable var vm = viewModel
         
         List {
+            Section {
+                Picker("Sort by", selection: $vm.sortOption) {
+                    ForEach(SortOption.allCases, id: \.self) { option in
+                        Text(option.rawValue).tag(option)
+                    }
+                }
+                .pickerStyle(.segmented)
+                .listRowBackground(Color.clear)
+                .listRowInsets(EdgeInsets())
+            }
+            
             ForEach(vm.stocks) { stock in
                 NavigationLink(value: stock.symbol) {
                     StockItem(stock: stock)
