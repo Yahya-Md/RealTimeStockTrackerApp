@@ -23,6 +23,15 @@ final class StockListViewModel {
         self.service = service
     }
     
+    var sortedStocks: [Stock] {
+        switch sortOption {
+        case .byPrice:
+            stocks.sorted { $0.currentPrice > $1.currentPrice }
+        case .byPriceChange:
+            stocks.sorted { abs($0.priceChange) > abs($1.priceChange) }
+        }
+    }
+    
     func loadStocks() async {
         do {
             let result = try await service.getStocks()

@@ -22,7 +22,7 @@ struct StocksList: View {
                 .listRowInsets(EdgeInsets())
             }
             
-            ForEach(vm.stocks) { stock in
+            ForEach(vm.sortedStocks) { stock in
                 NavigationLink(value: stock.symbol) {
                     StockItem(stock: stock)
                 }
