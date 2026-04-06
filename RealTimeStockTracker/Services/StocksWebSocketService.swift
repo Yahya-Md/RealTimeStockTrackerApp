@@ -6,14 +6,15 @@
 import Foundation
 
 protocol StocksWebSocket {
-    func start(generator: PriceGenerator) -> AsyncStream<PriceUpdate>
+    func start() -> AsyncStream<PriceUpdate>
+    func send(_ priceUpdate: PriceUpdate) async throws
     func stop()
 }
 
 final class StocksWebSocketService: StocksWebSocket {
     
     enum Error: Swift.Error {
-        case enableToDecode
+        case unableToDecode
     }
     
     private let webSocket: WebSocketSessionProtocol
@@ -22,10 +23,10 @@ final class StocksWebSocketService: StocksWebSocket {
         self.webSocket = webSocket
     }
     
-    func start(generator: PriceGenerator) -> AsyncStream<PriceUpdate> {
+    func start() -> AsyncStream<PriceUpdate> {
         AsyncStream { continuation in
             Task {
-                for await data in webSocket.start(generator: generator) {
+                for await data in webSocket.start() {
                     do {
                         let priceUpdate = try StocksWebSocketService.map(data)
                         continuation.yield(priceUpdate)
@@ -40,9 +41,16 @@ final class StocksWebSocketService: StocksWebSocket {
         }
     }
     
+    func send(_ priceUpdate: PriceUpdate) async throws {
+        if let data = try? JSONEncoder().encode(priceUpdate),
+           let json = String(data: data, encoding: .utf8) {
+            try await webSocket.send(json)
+        }
+    }
+    
     private static func map(_ data: Data) throws -> PriceUpdate {
         guard let prices = try? JSONDecoder().decode(PriceUpdate.self, from: data) else {
-            throw Error.enableToDecode
+            throw Error.unableToDecode
         }
         return prices
     }

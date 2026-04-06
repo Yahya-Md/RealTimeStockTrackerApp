@@ -17,6 +17,7 @@ final class StockListViewModel {
     private(set) var error: Error?
     private(set) var connectionStatus: ConnectionStatus = .disconnected
     private var listeningTask: Task<Void, Never>?
+    private var sendTask: Task<Void, Never>?
     private let service: StocksListService
     private var webSocketService: StocksWebSocket
     var sortOption: SortOption = .byPrice
@@ -54,7 +55,8 @@ final class StockListViewModel {
             basePrices: Dictionary(
                 uniqueKeysWithValues: stocks.map { ($0.symbol, $0.currentPrice)
                 }))
-        let stream = webSocketService.start(generator: generator)
+        let stream = webSocketService.start()
+        startSending(generator: generator)
         listeningTask = Task {
             for await update in stream {
                 guard !Task.isCancelled else { break }
@@ -63,7 +65,16 @@ final class StockListViewModel {
             if connectionStatus == .connected {
                 connectionStatus = .disconnected
             }
-            
+        }
+    }
+
+    private func startSending(generator: PriceGenerator) {
+        sendTask = Task {
+            while !Task.isCancelled {
+                let update: PriceUpdate = generator.generate()
+                try? await webSocketService.send(update)
+                try? await Task.sleep(for: .seconds(0.5))
+            }
         }
     }
     
@@ -75,6 +86,8 @@ final class StockListViewModel {
     }
     
     private func stopListening() {
+        sendTask?.cancel()
+        sendTask = nil
         listeningTask?.cancel()
         listeningTask = nil
         webSocketService.stop()
