@@ -21,5 +21,6 @@ struct ConnectionStatusView: View {
                 .font(.caption)
                 .foregroundStyle(status == .connected ? Color.green : Color.red)
         }
+        .frame(width: 100)
     }
 }
