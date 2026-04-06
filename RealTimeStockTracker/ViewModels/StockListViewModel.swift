@@ -5,6 +5,8 @@
 
 import Foundation
 
+@Observable
+@MainActor
 final class StockListViewModel {
     private(set) var stocks = [Stock]()
     private(set) var error: Error?

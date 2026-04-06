@@ -35,6 +35,23 @@ struct Stock: Identifiable, Equatable{
     }
     
     init(
+        id: Int,
+        symbol: String,
+        companyName: String,
+        stockDescription: String,
+        currentPrice: Double,
+        previousPrice: Double
+    ) {
+        self.id = id
+        self.symbol = symbol
+        self.companyName = companyName
+        self.stockDescription = stockDescription
+        self.currentPrice = currentPrice
+        self.previousPrice = previousPrice
+    }
+    
+    
+    init(
         symbol: String,
         companyName: String,
         stockDescription: String,

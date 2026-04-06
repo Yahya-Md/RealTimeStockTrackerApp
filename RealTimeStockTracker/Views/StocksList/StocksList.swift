@@ -6,31 +6,19 @@
 import SwiftUI
 
 struct StocksList: View {
-    let list: [Stock] = [
-        Stock(
-            id: 1,
-            symbol: "SYM",
-            companyName: "NAME",
-            stockDescription: "DESC",
-            currentPrice: 10,
-            previousPrice: 12
-        ),
-        Stock(
-            id: 2,
-            symbol: "SYM",
-            companyName: "NAME",
-            stockDescription: "DESC",
-            currentPrice: 10,
-            previousPrice: 9
-        )
-    ]
+    @Environment(StockListViewModel.self) private var viewModel
     var body: some View {
+        @Bindable var vm = viewModel
+        
         List {
-            ForEach(list) { stock in
+            ForEach(vm.stocks) { stock in
                 NavigationLink(value: stock.symbol) {
                     StockItem(stock: stock)
                 }
             }
+        }
+        .task {
+            await vm.loadStocks()
         }
     }
 }
