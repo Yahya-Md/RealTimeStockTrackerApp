@@ -24,6 +24,7 @@ struct StockItem: View {
             VStack(alignment: .trailing, spacing: 4) {
                 Text(stock.currentPrice, format: .currency(code: "USD"))
                     .font(.body.monospacedDigit())
+                PriceChangeIndicator(stock: stock)
             }
         }
         .padding(.vertical, 4)
@@ -32,6 +33,13 @@ struct StockItem: View {
 
 #Preview {
     StockItem(
-        stock: Stock(id: 1, symbol: "SYM", companyName: "NAME", stockDescription: "DESC", currentPrice: 20)
+        stock: Stock(
+            id: 1,
+            symbol: "SYM",
+            companyName: "NAME",
+            stockDescription: "DESC",
+            currentPrice: 20,
+            previousPrice: 20
+        )
     )
 }

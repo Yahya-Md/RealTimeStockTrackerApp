@@ -12,14 +12,16 @@ struct StocksList: View {
             symbol: "SYM",
             companyName: "NAME",
             stockDescription: "DESC",
-            currentPrice: 10
+            currentPrice: 10,
+            previousPrice: 12
         ),
         Stock(
             id: 2,
             symbol: "SYM",
             companyName: "NAME",
             stockDescription: "DESC",
-            currentPrice: 10
+            currentPrice: 10,
+            previousPrice: 9
         )
     ]
     var body: some View {
