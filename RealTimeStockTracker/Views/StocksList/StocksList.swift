@@ -34,5 +34,18 @@ struct StocksList: View {
         .task {
             await vm.loadStocks()
         }
+        .toolbar {
+            ToolbarItem(placement: .topBarLeading) {
+                ConnectionStatusView(status: viewModel.connectionStatus)
+            }
+            ToolbarItem(placement: .topBarTrailing) {
+                Button {
+                    viewModel.toggleConnection()
+                } label: {
+                    Text(viewModel.connectionStatus == .connected ? "Stop" : "Start")
+                        .fontWeight(.semibold)
+                }
+            }
+        }
     }
 }

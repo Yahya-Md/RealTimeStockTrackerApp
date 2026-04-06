@@ -6,7 +6,7 @@
 import Foundation
 
 protocol StocksWebSocket {
-    func start() -> AsyncStream<PriceUpdate>
+    func start(generator: PriceGenerator) -> AsyncStream<PriceUpdate>
     func stop()
 }
 
@@ -16,16 +16,16 @@ final class StocksWebSocketService: StocksWebSocket {
         case enableToDecode
     }
     
-    let webSocket: WebSocketSessionProtocol
+    private let webSocket: WebSocketSessionProtocol
     
     init(webSocket: WebSocketSessionProtocol) {
         self.webSocket = webSocket
     }
     
-    func start() -> AsyncStream<PriceUpdate> {
+    func start(generator: PriceGenerator) -> AsyncStream<PriceUpdate> {
         AsyncStream { continuation in
             Task {
-                for await data in webSocket.start() {
+                for await data in webSocket.start(generator: generator) {
                     do {
                         let priceUpdate = try StocksWebSocketService.map(data)
                         continuation.yield(priceUpdate)

@@ -7,7 +7,7 @@ import Foundation
 
 
 protocol WebSocketSessionProtocol {
-    func start() -> AsyncStream<Data>
+    func start(generator: PriceGenerator) -> AsyncStream<Data>
     func stop()
 }
 
@@ -19,17 +19,17 @@ final class WebSocketSession: WebSocketSessionProtocol {
     
     private let url: URL
     private let session: URLSession
-    private let generator: PriceGenerator
+    private var generator: PriceGenerator?
     
-    init(url: URL, session: URLSession, generator: PriceGenerator) {
+    init(url: URL, session: URLSession) {
         self.url = url
         self.session = session
-        self.generator = generator
     }
     
-    func start() -> AsyncStream<Data> {
+    func start(generator: PriceGenerator) -> AsyncStream<Data> {
         let (stream, continuation) = AsyncStream.makeStream(of: Data.self)
         self.continuation = continuation
+        self.generator = generator
         webSocketTask = session.webSocketTask(with: url)
         webSocketTask?.resume()
         
@@ -53,10 +53,11 @@ final class WebSocketSession: WebSocketSessionProtocol {
     private func sendUpdates() {
         sendTask = Task { [weak self] in
             while !Task.isCancelled {
-                guard let self else { break }
+                guard let self, let generator else { break }
                 let update: PriceUpdate = generator.generate()
-                guard let data = try? JSONEncoder().encode(update) else { continue }
-                try? await self.webSocketTask?.send(.data(data))
+                guard let data = try? JSONEncoder().encode(update),
+                      let json = String(data: data, encoding: .utf8) else { continue }
+                try? await self.webSocketTask?.send(.string(json))
                 try? await Task.sleep(for: .seconds(0.5))
             }
         }

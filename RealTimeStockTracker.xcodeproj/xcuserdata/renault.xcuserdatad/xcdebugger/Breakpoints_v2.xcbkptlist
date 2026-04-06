@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A04B26B9-EBE4-4E65-8884-6438E0D3871B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6B6504F-CBD3-41D4-A538-D39A9342891A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealTimeStockTracker/ViewModels/StockListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "startListening()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "259CE578-86B7-452B-AF25-71CB33C75F42"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealTimeStockTracker/ViewModels/StockListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "startListening()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "416A61E1-50C5-458F-857B-CBD3888D715B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealTimeStockTracker/ViewModels/StockListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "startListening()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E0F60D9-B8FE-469D-BCD2-DD154652C45C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "start(generator:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C6ED573-871A-438B-8F68-F1A3C571FF1F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "start(generator:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5EDEC2D7-8C75-43B5-8CE5-F4F846FA2D5A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "start(generator:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5EDEC2D7-8C75-43B5-8CE5-F4F846FA2D5A - f77d630b8adb0bf7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RealTimeStockTracker.WebSocketSession.start(generator: RealTimeStockTracker.PriceGenerator) -&gt; Swift.AsyncStream&lt;Foundation.Data&gt;"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35">
+               </Location>
+               <Location
+                  uuid = "5EDEC2D7-8C75-43B5-8CE5-F4F846FA2D5A - f77d630b8adb0a16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RealTimeStockTracker.WebSocketSession.start(generator: RealTimeStockTracker.PriceGenerator) -&gt; Swift.AsyncStream&lt;Foundation.Data&gt;"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D8F7E1B-B95F-49A7-8FC8-75460C819821"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "start(generator:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0446B823-D945-4557-8F6C-157D86DB4D36"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "start(generator:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0446B823-D945-4557-8F6C-157D86DB4D36 - f77d630b8adb0b92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RealTimeStockTracker.WebSocketSession.start(generator: RealTimeStockTracker.PriceGenerator) -&gt; Swift.AsyncStream&lt;Foundation.Data&gt;"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38">
+               </Location>
+               <Location
+                  uuid = "0446B823-D945-4557-8F6C-157D86DB4D36 - f77d630b8adb0bb5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RealTimeStockTracker.WebSocketSession.start(generator: RealTimeStockTracker.PriceGenerator) -&gt; Swift.AsyncStream&lt;Foundation.Data&gt;"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B23FA4FE-ED75-40B8-AC2F-0493C12721D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "sendUpdates()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B23FA4FE-ED75-40B8-AC2F-0493C12721D8 - ecfe8df5ce782df8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59">
+               </Location>
+               <Location
+                  uuid = "B23FA4FE-ED75-40B8-AC2F-0493C12721D8 - 5388532c9ddfb582"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59">
+               </Location>
+               <Location
+                  uuid = "B23FA4FE-ED75-40B8-AC2F-0493C12721D8 - efd33089a85fe999"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60">
+               </Location>
+               <Location
+                  uuid = "B23FA4FE-ED75-40B8-AC2F-0493C12721D8 - d10467ac75a6a5f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59">
+               </Location>
+               <Location
+                  uuid = "B23FA4FE-ED75-40B8-AC2F-0493C12721D8 - 51ef31d26099c3f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59">
+               </Location>
+               <Location
+                  uuid = "B23FA4FE-ED75-40B8-AC2F-0493C12721D8 - d0768a405f8c61f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59">
+               </Location>
+               <Location
+                  uuid = "B23FA4FE-ED75-40B8-AC2F-0493C12721D8 - ecfe8df5ce782df8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59">
+               </Location>
+               <Location
+                  uuid = "B23FA4FE-ED75-40B8-AC2F-0493C12721D8 - d10467ac75a6a5f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59">
+               </Location>
+               <Location
+                  uuid = "B23FA4FE-ED75-40B8-AC2F-0493C12721D8 - d0768a405f8c61f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F36A8294-0CF1-4F5C-BB7C-5D297AC5818C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "sendUpdates()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F36A8294-0CF1-4F5C-BB7C-5D297AC5818C - ecfe8df5ce782dd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58">
+               </Location>
+               <Location
+                  uuid = "F36A8294-0CF1-4F5C-BB7C-5D297AC5818C - ecfe8df5ce782dd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58">
+               </Location>
+               <Location
+                  uuid = "F36A8294-0CF1-4F5C-BB7C-5D297AC5818C - d10467ac75a6a5d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58">
+               </Location>
+               <Location
+                  uuid = "F36A8294-0CF1-4F5C-BB7C-5D297AC5818C - d10467ac75a6a5d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58">
+               </Location>
+               <Location
+                  uuid = "F36A8294-0CF1-4F5C-BB7C-5D297AC5818C - d0768a405f8c61d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58">
+               </Location>
+               <Location
+                  uuid = "F36A8294-0CF1-4F5C-BB7C-5D297AC5818C - d0768a405f8c61d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B910A8D-1C9C-490A-8B8C-A249F642BA24"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "sendUpdates()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1B910A8D-1C9C-490A-8B8C-A249F642BA24 - ecfe8df5ce782d9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60">
+               </Location>
+               <Location
+                  uuid = "1B910A8D-1C9C-490A-8B8C-A249F642BA24 - efd33089a85fe999"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60">
+               </Location>
+               <Location
+                  uuid = "1B910A8D-1C9C-490A-8B8C-A249F642BA24 - 35953b03072571df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60">
+               </Location>
+               <Location
+                  uuid = "1B910A8D-1C9C-490A-8B8C-A249F642BA24 - d10467ac75a6a597"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60">
+               </Location>
+               <Location
+                  uuid = "1B910A8D-1C9C-490A-8B8C-A249F642BA24 - 51ef31d26099c394"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60">
+               </Location>
+               <Location
+                  uuid = "1B910A8D-1C9C-490A-8B8C-A249F642BA24 - d0768a405f8c6195"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60">
+               </Location>
+               <Location
+                  uuid = "1B910A8D-1C9C-490A-8B8C-A249F642BA24 - 5388532c9ddfb5e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60">
+               </Location>
+               <Location
+                  uuid = "1B910A8D-1C9C-490A-8B8C-A249F642BA24 - efd33089a85fe9b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "489A1C17-E731-4A91-81BC-47A605D42C67"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "sendUpdates()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "489A1C17-E731-4A91-81BC-47A605D42C67 - ecfe8df5ce782e17"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56">
+               </Location>
+               <Location
+                  uuid = "489A1C17-E731-4A91-81BC-47A605D42C67 - d10467ac75a6a61b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56">
+               </Location>
+               <Location
+                  uuid = "489A1C17-E731-4A91-81BC-47A605D42C67 - d0768a405f8c6219"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99A54B07-1EFC-46E7-B9E1-F3D888DF22BF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "sendUpdates()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "99A54B07-1EFC-46E7-B9E1-F3D888DF22BF - ecfe8df5ce782e74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55">
+               </Location>
+               <Location
+                  uuid = "99A54B07-1EFC-46E7-B9E1-F3D888DF22BF - d10467ac75a6a678"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55">
+               </Location>
+               <Location
+                  uuid = "99A54B07-1EFC-46E7-B9E1-F3D888DF22BF - d0768a405f8c627a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "147DC4C3-CA11-4A73-A524-61B41FE86940"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "sendUpdates()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "147DC4C3-CA11-4A73-A524-61B41FE86940 - ecfe8df5ce782e55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54">
+               </Location>
+               <Location
+                  uuid = "147DC4C3-CA11-4A73-A524-61B41FE86940 - d10467ac75a6a659"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54">
+               </Location>
+               <Location
+                  uuid = "147DC4C3-CA11-4A73-A524-61B41FE86940 - d0768a405f8c625b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54">
+               </Location>
+               <Location
+                  uuid = "147DC4C3-CA11-4A73-A524-61B41FE86940 - bb226545e5f111c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54">
+               </Location>
+               <Location
+                  uuid = "147DC4C3-CA11-4A73-A524-61B41FE86940 - bd27e899a0900f70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () async -&gt; () in RealTimeStockTracker.WebSocketSession.sendUpdates() -&gt; ()"
+                  moduleName = "RealTimeStockTracker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renault/Documents/RealTimeStockTracker/RealTimeStockTracker/Core/WebSocket/WebSocketSession.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
