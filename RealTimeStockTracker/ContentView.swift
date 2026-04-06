@@ -10,8 +10,10 @@ struct ContentView: View {
         service: StocksListServiceImpl(loader: JsonLoader(bundle: .main))
     )
     var body: some View {
-        StocksList()
-            .environment(viewModel)
+        NavigationStack {
+            StocksList()
+        }
+        .environment(viewModel)
     }
 }
 

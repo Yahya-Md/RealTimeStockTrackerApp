@@ -17,12 +17,11 @@ struct StocksList: View {
                 }
             }
         }
+        .navigationDestination(for: String.self) { symbol in
+            StockDetails(symbol: symbol)
+        }
         .task {
             await vm.loadStocks()
         }
     }
-}
-
-#Preview {
-    StocksList()
 }
