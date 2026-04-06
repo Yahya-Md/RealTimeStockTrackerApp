@@ -40,14 +40,14 @@ final class WebSocketSession: WebSocketSessionProtocol {
     }
 
     func stop() {
-        sendTask?.cancel()
-        sendTask = nil
         receiveTask?.cancel()
         receiveTask = nil
         webSocketTask?.cancel(with: .normalClosure, reason: nil)
         webSocketTask = nil
         continuation?.finish()
         continuation = nil
+        sendTask?.cancel()
+        sendTask = nil
     }
 
     private func sendUpdates() {
@@ -95,7 +95,6 @@ final class WebSocketSession: WebSocketSessionProtocol {
     }
 
     private func handleDisconnection() {
-        continuation?.finish()
-        continuation = nil
+        stop()
     }
 }
