@@ -18,6 +18,7 @@ struct Stock: Identifiable, Equatable{
     let stockDescription: String
     var currentPrice: Double
     var previousPrice: Double
+    var pricesList = [Double]()
     
     var priceChange: Double {
         currentPrice - previousPrice
@@ -63,5 +64,6 @@ struct Stock: Identifiable, Equatable{
         self.stockDescription = stockDescription
         self.currentPrice = basePrice
         self.previousPrice = basePrice
+        self.pricesList.append(basePrice)
     }
 }

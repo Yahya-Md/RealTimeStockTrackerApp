@@ -23,6 +23,13 @@ struct StockDetails: View {
                         stockInfo(stock: stock)
                         Divider()
                         stockAbout(description: stock.stockDescription)
+                        if stock.pricesList.count > 2 {
+                            StockChart(
+                                prices: stock.pricesList,
+                                color: stock.direction.color
+                            )
+                                .frame(height: 300)
+                        }
                     }
                     .padding()
                 }
@@ -61,8 +68,4 @@ struct StockDetails: View {
                 .lineSpacing(4)
         }
     }
-}
-
-#Preview {
-    StockDetails(symbol: "SYM")
 }

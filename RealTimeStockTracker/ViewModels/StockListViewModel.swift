@@ -71,6 +71,7 @@ final class StockListViewModel {
         guard let index = stocks.firstIndex(where: { $0.symbol == update.symbol }) else { return }
         stocks[index].previousPrice = stocks[index].currentPrice
         stocks[index].currentPrice = update.price
+        stocks[index].pricesList.append(update.price)
     }
     
     private func stopListening() {
