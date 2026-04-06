@@ -26,23 +26,7 @@ struct StocksList: View {
         List {
             ForEach(list) { stock in
                 NavigationLink(value: stock.symbol) {
-                    HStack {
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text(stock.symbol)
-                                .font(.headline)
-                            Text(stock.companyName)
-                                .font(.caption)
-                                .foregroundStyle(.secondary)
-                        }
-                        
-                        Spacer()
-                        
-                        VStack(alignment: .trailing, spacing: 4) {
-                            Text(stock.currentPrice, format: .currency(code: "USD"))
-                                .font(.body.monospacedDigit())
-                        }
-                    }
-                    .padding(.vertical, 4)
+                    StockItem(stock: stock)
                 }
             }
         }
